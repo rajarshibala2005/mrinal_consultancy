@@ -9,19 +9,22 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="asserts/css/styles.css">
   <link rel="stylesheet" href="asserts/css/utiles.css">
+  <link rel="stylesheet" href="asserts/css/responsive.css">
 </head>
 
 <body>
   <header>
     <div class="container">
       <div class="header-inner">
-        <a href="#home" class="logo">
-          <img src="navlogo.png" alt="navlogo" style="height: 80px; vertical-align: middle;">
-          <h1>Mrinal Consultancy</h1>
-        </a>
-        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
-          <i class="fas fa-bars"></i>
-        </button>
+        <div>
+          <a href="#home" class="logo">
+            <img src="navlogo.png" alt="navlogo" style="height: 80px; vertical-align: middle;">
+            <h1>Mrinal Consultancy</h1>
+          </a>
+          <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
         <nav>
           <ul class="nav-links" id="navLinks">
             <li><a href="#home" class="active">Home</a></li>
@@ -44,57 +47,57 @@
     <!-- Hero Section with Carousel -->
     <section class="hero fade-in" id="home">
       <div class="carousel-container">
-      <!-- Slide 1 -->
-      <div class="carousel-slide">
-        <img src="asserts/images/carousal/slide 1.png" alt="Luxury Living" class="carousel-image">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <h1>Find your best property</h1>
-          <p>Experience the finest in modern architecture and premium amenities for sophisticated living.</p>
-          <a href="#properties" class="cta-button">
-            <i class="fas fa-home"></i> View Luxury Homes
-          </a>
+        <!-- Slide 1 -->
+        <div class="carousel-slide">
+          <img src="asserts/images/carousal/slide 1.png" alt="Luxury Living" class="carousel-image">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1>Find your best property</h1>
+            <p>Experience the finest in modern architecture and premium amenities for sophisticated living.</p>
+            <a href="#properties" class="cta-button">
+              <i class="fas fa-home"></i> View Luxury Homes
+            </a>
+          </div>
         </div>
-      </div>
 
-      <!-- Slide 2 -->
-      <div class="carousel-slide">
-        <img src="asserts/images/carousal/slide 2.png" alt="Luxury Living" class="carousel-image">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <h1>Luxury Living Redefined</h1>
-          <p>Experience the finest in modern architecture and premium amenities for sophisticated living.</p>
-          <a href="#properties" class="cta-button">
-            <i class="fas fa-home"></i> View Luxury Homes
-          </a>
+        <!-- Slide 2 -->
+        <div class="carousel-slide">
+          <img src="asserts/images/carousal/slide 2.png" alt="Luxury Living" class="carousel-image">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1>Luxury Living Redefined</h1>
+            <p>Experience the finest in modern architecture and premium amenities for sophisticated living.</p>
+            <a href="#properties" class="cta-button">
+              <i class="fas fa-home"></i> View Luxury Homes
+            </a>
+          </div>
         </div>
-      </div>
 
-      <!-- Slide 3 -->
-      <div class="carousel-slide">
-        <img src="asserts/images/carousal/slide 3.png" alt="Investment Opportunities" class="carousel-image">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <h1>Investment Opportunities</h1>
-          <p>Secure your future with prime real estate investments in growing urban centers.</p>
-          <a href="#properties" class="cta-button">
-            <i class="fas fa-chart-line"></i> Investment Properties
-          </a>
+        <!-- Slide 3 -->
+        <div class="carousel-slide">
+          <img src="asserts/images/carousal/slide 3.png" alt="Investment Opportunities" class="carousel-image">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <h1>Investment Opportunities</h1>
+            <p>Secure your future with prime real estate investments in growing urban centers.</p>
+            <a href="#properties" class="cta-button">
+              <i class="fas fa-chart-line"></i> Investment Properties
+            </a>
+          </div>
         </div>
-      </div>
 
-      <button class="carousel-nav carousel-prev" onclick="changeSlide(-1)">
-        <i class="fas fa-chevron-left"></i>
-      </button>
-      <button class="carousel-nav carousel-next" onclick="changeSlide(1)">
-        <i class="fas fa-chevron-right"></i>
-      </button>
+        <button class="carousel-nav carousel-prev" onclick="changeSlide(-1)">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="carousel-nav carousel-next" onclick="changeSlide(1)">
+          <i class="fas fa-chevron-right"></i>
+        </button>
 
-      <div class="carousel-indicators">
-        <div class="indicator active" onclick="goToSlide(0)"></div>
-        <div class="indicator" onclick="goToSlide(1)"></div>
-        <div class="indicator" onclick="goToSlide(2)"></div>
-      </div>
+        <div class="carousel-indicators">
+          <div class="indicator active" onclick="goToSlide(0)"></div>
+          <div class="indicator" onclick="goToSlide(1)"></div>
+          <div class="indicator" onclick="goToSlide(2)"></div>
+        </div>
       </div>
     </section>
 
@@ -143,7 +146,7 @@
     <section class="about-section fade-in" id="about">
       <div class="container">
         <div class="section-header">
-          <h2>About Prime Properties</h2>
+          <h2>About Mrinal Consultancy</h2>
           <p>With over 15 years of experience in the real estate market, we specialize in connecting buyers and renters
             with premium properties across major cities. Our expert team ensures a seamless experience from discovery to
             closing.</p>
@@ -167,7 +170,7 @@
               </div>
               <div class="contact-card-content">
                 <h3>Visit Us</h3>
-                <p>123 Real Estate Boulevard<br>Downtown, Mumbai - 400001<br>Maharashtra, India</p>
+                <p>P.O. Aswininagar, P.S. Baguiati, Kolkata - 700159, West Bengal</p>
               </div>
             </div>
 
@@ -177,7 +180,8 @@
               </div>
               <div class="contact-card-content">
                 <h3>Call Us</h3>
-                <p><a href="tel:+912223456789">+91 (22) 2345-6789</a><br><strong>Available</strong> 24/7</p>
+                <p><a href="tel:+912223456789">.: 98748993157/6291305450/9874893157</a><br><strong>Available</strong>
+                  24/7</p>
               </div>
             </div>
 
@@ -187,7 +191,8 @@
               </div>
               <div class="contact-card-content">
                 <h3>Email Us</h3>
-                <p><a href="mailto:info@primeproperties.com">info@primeproperties.com</a><br><strong>Response</strong>
+                <p><a href="mailto:info@primeproperties.com">: mrinal.consultancy@gmail.com
+                  </a><br><strong>Response</strong>
                   within 24 hours</p>
               </div>
             </div>
@@ -205,10 +210,7 @@
           </div>
 
           <div class="map-container">
-            <iframe class="map-iframe"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5!2d72.8777!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8f6a!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1630000000000"
-              allowfullscreen="" loading="lazy">
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.20217200321457!2d88.43264685208551!3d22.60770732016201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027586664bd1f5%3A0x1093e454b829bf60!2sJC5M%2B23J%2C%20Aswininagar%20Rd%2C%20Ashwini%20Nagar%2C%20Baguihati%2C%20Kolkata%2C%20West%20Bengal%20700159!5e0!3m2!1sen!2sin!4v1761815094486!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -348,7 +350,7 @@
       <div class="footer-content">
         <div class="footer-section">
           <div class="d-flex direction-row align-center " style="margin-bottom: 1rem;">
-            <img src="asserts/images/logonav.png" height="40px; color: #fff" alt="">
+            <img src="asserts/images/footerlogo.png" height="40px; color: #fff" alt="">
             <h3 style="margin: 0;">Mrinal Consultancy</h3>
 
           </div>
