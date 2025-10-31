@@ -42,10 +42,6 @@
     padding: 1rem;
   }
 
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-
   .hero p {
     font-size: 1rem;
   }
@@ -108,9 +104,6 @@
     padding: 1.25rem;
   }
 
-  .hero h1 {
-    font-size: 2.2rem;
-  }
 
   .hero p {
     font-size: 1.1rem;
@@ -183,10 +176,6 @@
     padding: 1.5rem;
   }
 
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
   .hero p {
     font-size: 1.25rem;
   }
@@ -225,9 +214,6 @@
     height: 90vh;
   }
 
-  .hero h1 {
-    font-size: 3rem;
-  }
 
   .hero p {
     font-size: 1.3rem;
@@ -273,10 +259,6 @@
 
   .hero {
     height: 92vh;
-  }
-
-  .hero h1 {
-    font-size: 3.5rem;
   }
 
   .hero p {
@@ -334,10 +316,13 @@
 
 @media (orientation: landscape) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 
   .hero p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
